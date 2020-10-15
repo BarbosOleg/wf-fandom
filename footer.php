@@ -1,5 +1,6 @@
 <footer>
     <div class="footer__row">
+        <!-- upper footer with information about site -->
         <div class="upper__footer">
             <div class="footer__about">
                 <ul>
@@ -10,6 +11,7 @@
                 </ul>
             </div>
         </div>
+        <!-- copyright block -->
         <div class="lower__footer"> 
             <div class="footer__copyright">Copyright &copy Barbos Oleg, All right reserved</div>
         </div>
