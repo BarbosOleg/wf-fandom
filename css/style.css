@@ -1,0 +1,226 @@
+@import url(./main-style.css);
+
+/* Header start */
+.header__registration{
+    color: #dadada;
+    background-color: var(--main-black);
+}
+.header__registration:hover{
+    color: var(--hover-color);
+}
+.header__login{
+    color: var(--main-black);
+}
+.button:hover{
+    color: #dadada;
+    background-color: var(--hover-color);
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Header */
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    height: 70px;
+    overflow: hidden;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+    flex: 0 0 auto;
+}
+.header__row{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.header__logo img{
+    width: 40px;
+    height: 40px;
+}
+.header__logo a{
+    color: var(--main-black);
+    transition-duration: 0.6s;
+}
+.header__logo a:hover{
+    color: var(--hover-color);
+    font-size: 30px;
+}
+/* Content block */
+.content__block{
+    flex: 1 1 auto;
+}
+
+.content__banner{
+    height: 350px;
+    background-color: var(--accent-color);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background-image: url(../img/megwf.jpg);
+    background-position: 0 10%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.content__link{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.content__link ul{
+    display: flex;
+}
+.content__link li {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.6s;
+}
+.content__li{
+    padding: 10px 0;
+    font-weight: bold;
+}
+.content__link li:hover{
+    background-color: var(--main-black);
+}
+.content__link a:hover{
+    color: var(--hover-color);
+}
+/* 
+////////////////////////////////////////////////////////////
+*/
+.content__container{
+    width: 100%;
+    max-width: 980px;
+    /* height: 900px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 0.2em;
+}
+.content__posts{
+    width: 100%;
+    min-height: 620px;
+    padding: 10px;
+    overflow: hidden;
+}
+.post__wrapper{
+    margin-bottom: 35px;
+}
+/* content heading */
+.content__header{
+    border-bottom: var(--main-black) solid 3px;
+}
+.content__user{
+    display:flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.user__avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.content__title{
+    font-size: 24px;
+}
+.content__description{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.content__image img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* pagination */
+.content__pagination{
+    display: flex;
+    justify-content: space-around;
+}
+.pagination{
+    width: 200px;
+    background-color: var(--main-black);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    transition-duration: 0.6s;
+}
+.pagination a{
+    color: #dadada;
+}
+.pagination:hover{
+    background: var(--hover-color);
+}
+.arrow{
+    border: solid #dadada;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+/* sidebar */
+.content__sidebar{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.social__media__icon{
+    width: 32px;
+}
+.sidebar__heading{
+    border-bottom: var(--main-black) solid 3px;
+    margin-bottom: 10px;
+}
+.sidebar__block{
+    margin: 0 0 20px 0;
+}
+.popular__posts a{
+    padding: 5px;
+    box-shadow:  0 0 10px #dadada inset;
+    -webkit-box-shadow:  0 0 10px #dadada inset;
+    -moz-box-shadow:  0 0 10px #dadada inset;
+    line-height: 2em;
+    border-radius: 15px;
+}
+/* Footer */
+footer{
+    flex: 0 0 auto;
+    height: 50px;
+    padding: 3px 0;
+}
+.upper__footer{
+    background-color: var(--accent-color);
+    padding: 10px 5px;
+}
+.lower__footer{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 10px 0;
+}
+.footer__copyright{
+    margin: 0 4px;
+}

@@ -1,0 +1,73 @@
+@import url(./normalize.css);
+@import url(./main-style.css);
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form__background__image{
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin:0 0 7px 0;
+    border: none;
+    border-bottom: #dadada solid 2px;
+}
+input:focus{
+    width: 100%;
+    padding: 5px;
+    margin:0 0 7px 0;
+    border: none;
+    border-bottom: #dadada solid 2px;
+}
+.form__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__wrapper form{
+    background: #fff;
+    width: 400px;
+    height: 380px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px var(--shadow-color);
+}
+.registration{
+    background: #fff;
+    width: 400px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: aqua;
+    box-shadow: 3px 3px 3px var(--shadow-color);
+}
+#form__button{
+    color: #dadada;
+    background: var(--main-black);
+}
+#form__button:hover{
+    color: #dadada;
+    background: var(--hover-color);
+}
+.form__help{
+    color: var(--help);
+}
