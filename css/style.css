@@ -211,7 +211,7 @@ footer{
 }
 .upper__footer{
     background-color: var(--accent-color);
-    padding: 10px 5px;
+    padding: 10px 15px;
 }
 .lower__footer{
     width: 100%;

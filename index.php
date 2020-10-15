@@ -12,27 +12,10 @@
 <body>
     <div class="wrapper">
         <!-- header start -->
-        <header>
-            <div class="header__row">
-                <div class="header__container">
-                    <div class="header__logo">
-                        <a href="#">
-                            <img src="./img/logo.png" alt="Logo">
-                            <span class="header__name">Kotik</span>
-                        </a>
-                    </div>
-                    <div class="header__user">
-                        <a href="./login.html" class="header__login button" >log in</a>
-                        <a href="./register.html" class="header__registration button">register</a>
-                    </div>
-                </div>
-
-            </div>
-        </header>
+        <?php include 'header.php' ?>
         <!-- header end -->
         <!-- content start -->
         <div class="content__block">
-            <!-- <h1>abracadabra</h1> -->
             <div class="content__row">
                 <div class="content__banner">
                     
@@ -44,6 +27,7 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Main block -->
                 <div class="content__container">
                     <div class="content__posts">
                         <!-- Posts start -->
@@ -129,24 +113,7 @@
         </div>
         <!-- content end -->
         <!-- footer start -->
-        <footer>
-            <div class="footer__row">
-                <div class="upper__footer">
-                    <div class="footer__about">
-                        <ul>
-                            <span class="about">About</span>
-                            <li>Our Story</li>
-                            <li>Site rules</li>
-                            <li>Privacy Policy</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="lower__footer"> 
-                    <div class="footer__copyright">Copyright &copy Barbos Oleg, All right reserved</div>
-                </div>
-
-            </div>
-        </footer>
+        <?php include 'footer.php' ?>
         <!-- footer end -->
     </div>
 </body>
