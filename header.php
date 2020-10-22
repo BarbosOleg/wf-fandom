@@ -11,6 +11,7 @@
     <title>Warframe Fandom</title>
 </head>
 
+
 <body>
     <div class="wrapper">
         <header>
@@ -29,6 +30,20 @@
                         <a href="./register.php" class="header__registration button">register</a>
                     </div>
                 </div>
-
+            </div>
+            <div class="content__banner">
+                <div class="content__link">
+                    <ul>
+                        <li><a href="#">
+                                <div class="content__li">Main Page</div>
+                            </a></li>
+                        <li><a href="#">
+                                <div class="content__li">About Project</div>
+                            </a></li>
+                        <li><a href="donation.php">
+                                <div class="content__li">Donation</div>
+                            </a></li>
+                    </ul>
+                </div>
             </div>
         </header>

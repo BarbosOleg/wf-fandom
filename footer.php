@@ -2,13 +2,10 @@
     <div class="footer__row">
         <!-- upper footer with information about site -->
         <div class="upper__footer">
-            <div class="footer__about">
-                <ul>
-                    <span class="about">About</span>
-                    <li>Our Story</li>
-                    <li>Site rules</li>
-                    <li>Privacy Policy</li>
-                </ul>
+            <div class="slideshow__container">
+                <div class="slideshow__element">
+                    
+                </div>
             </div>
         </div>
         <!-- copyright block -->
