@@ -12,8 +12,12 @@
             </div>
         </div>
         <!-- copyright block -->
-        <div class="lower__footer"> 
+        <div class="lower__footer">
             <div class="footer__copyright">Copyright &copy Barbos Oleg, All right reserved</div>
         </div>
     </div>
 </footer>
+</div>
+</body>
+
+</html>
