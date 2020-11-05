@@ -96,5 +96,5 @@
 </div>
 <!-- content end -->
 <!-- footer start -->
-<?php include 'footer.php' ?>
+<?php include_once 'footer.php' ?>
 <!-- footer end -->

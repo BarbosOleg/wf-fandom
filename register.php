@@ -17,19 +17,33 @@
         <div class="form__wrapper">
             <form action="POST">
                 <h2>Register</h2>
-                <label for="form__login">Login</label>
-                <input type="text" id="form__login" name="form__login" placeholder="Login">
-                <label for="form__password">Password</label>
-                <input type="text" id="form__password" placeholder="Password">
-                <label for="form__confirm__password">Confirm password</label>
-                <input type="password" id="form__confirm__password" placeholder="Password" autocomplete="off">
-                <label for="form__email">Email</label>
-                <input type="text" id="form__email" placeholder="email">
-                <input type="submit" name="form__button" id="form__button" class="button" value="Register">
+                <div>
+                    <label for="form__login">Login</label>
+                    <input type="text" id="register__login" name="form__login" placeholder="Login">
+
+                </div>
+                <div>
+                    <label for="form__password">Password</label>
+                    <input type="password" id="register__password" placeholder="Password">
+
+                </div>
+                <div>
+                    <label for="form__confirm__password">Confirm password</label>
+                    <input type="password" id="register__confirm__password" placeholder="Password" autocomplete="off">
+
+                </div>
+                <div>
+                    <label for="form__email">Email</label>
+                    <input type="text" id="register__email" placeholder="email">
+                    <small class="reg__error"></small>
+
+                </div>
+                <input type="submit" name="form__button" id="register__button" class="button" value="Register">
             </form>
         </div>
 
     </div>
+    <script type="text/javascript" src="./js/register-input-validation.js"></script>
 </body>
 
 </html>

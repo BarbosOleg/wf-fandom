@@ -19,7 +19,7 @@
                 <div class="header__container">
                     <!-- site logo -->
                     <div class="header__logo">
-                        <a href="#">
+                        <a href="index.php">
                             <img src="./img/logo.png" alt="Logo">
                             <span class="header__name">Kotik</span>
                         </a>
@@ -34,7 +34,7 @@
             <div class="content__banner">
                 <div class="content__link">
                     <ul>
-                        <li><a href="#">
+                        <li><a href="index.php">
                                 <div class="content__li">Main Page</div>
                             </a></li>
                         <li><a href="#">

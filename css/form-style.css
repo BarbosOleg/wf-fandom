@@ -1,25 +1,38 @@
 @import url(./normalize.css);
 @import url(./main-style.css);
 .wrapper{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.form__background__image{
-    /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 1024px;
+/* hide background image when screen width is less than 1024px */
+@media screen and (min-width: 1024px){
+    .form__background__image{
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+    
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+    
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+}
+@media screen and (max-width: 1024px){
+    .wrapper{
+        background: #444;
+        min-width: 400px;
+    }
+    .form__background__image{
+        display: none;
+    }
 }
 input{
     width: 100%;
