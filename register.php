@@ -19,23 +19,24 @@
                 <h2>Register</h2>
                 <div>
                     <label for="form__login">Login</label>
-                    <input type="text" id="register__login" name="form__login" placeholder="Login">
-
+                    <input type="text" id="register__login" name="form__login" autocomplete="off" placeholder="Login"  minlength="4" maxlength="20">
+                    <small class="error_msg">Error: Valid login is required</small>
                 </div>
                 <div>
                     <label for="form__password">Password</label>
-                    <input type="password" id="register__password" placeholder="Password">
-
+                    <input type="password" id="register__password" placeholder="Password"  minlength="4" maxlength="20">
+                    <small class="error_msg">Error: Valid password is required</small>
                 </div>
                 <div>
                     <label for="form__confirm__password">Confirm password</label>
-                    <input type="password" id="register__confirm__password" placeholder="Password" autocomplete="off">
+                    <input type="password" id="register__confirm__password" placeholder="Password" autocomplete="off"  minlength="4" maxlength="20">
+                    <small class="error_msg">Error: Confirm password is not the same</small>
 
                 </div>
                 <div>
                     <label for="form__email">Email</label>
-                    <input type="text" id="register__email" placeholder="email">
-                    <small class="reg__error"></small>
+                    <input type="text" id="register__email" placeholder="email" >
+                    <small class="error_msg">Error: Valid email is required</small>
 
                 </div>
                 <input type="submit" name="form__button" id="register__button" class="button" value="Register">

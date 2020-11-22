@@ -32,6 +32,13 @@ a{
     font-size: 24px;
     border-radius: 5px;
     transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
     text-transform: capitalize;
     font-weight: bold;
+}
+.button:hover{
+    background: rgba(124, 124, 124, 0.2);
+    cursor: pointer;
 }

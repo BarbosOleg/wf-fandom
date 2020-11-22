@@ -20,12 +20,12 @@
                 <div>
                     <label for="form__login">Login</label>
                     <input type="text" id="login__login" name="form__login" placeholder="Login" autocomplete="off">
-
+                    <small class="error_msg">Error: Valid login is required</small>
                 </div>
                 <div>
                     <label for="form__password">Password</label>
                     <input type="password" id="login__password" placeholder="Password" autocomplete="off">
-
+                    <small class="error_msg">Error: Valid login is required</small>
                 </div>
                 <input type="submit" name="form__button" id="login__button" class="button" value="Sing Up">
                 <h6><a href="#" class="form__help">Forgot password?</a></h6>
