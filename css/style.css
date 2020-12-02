@@ -2,17 +2,18 @@
 
 /* Header start */
 .header__registration{
-    color: #dadada;
+    color: #ffffff;
     background-color: var(--main-black);
 }
 .header__registration:hover{
-    color: var(--hover-color);
+    color: #393e46;
+    background-color: var(--hover-color);
 }
 .header__login{
     color: var(--main-black);
 }
 .button:hover{
-    color: #dadada;
+    /* color: #dadada; */
     background-color: var(--hover-color);
 }
 .wrapper{
@@ -97,7 +98,8 @@ header{
     color: var(--hover-color);
 }
 /* 
-////////////////////////////////////////////////////////////
+* content block
+*
 */
 @media screen and (max-width: 780px){
     
@@ -172,7 +174,7 @@ header{
     color: #dadada;
 }
 .pagination:hover{
-    background: var(--hover-color);
+    background: rgba(93, 79, 46, 0.8);
 }
 .arrow{
     border: solid #dadada;
@@ -295,3 +297,44 @@ footer{
     /* background-color: var(--accent-color); */
     height: 250px;
 }
+
+/* 
+* donation cards 
+*
+ */
+.donation__cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 100px 10px;
+}
+ .card{
+    padding: 15px 10px;
+    border: 2px solid #393e46;
+    border-radius: 5px;
+    background: #ffd369;
+    color: #393e46;
+ }
+ .standard__card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    row-gap: 7px;
+    margin-bottom: 7px;
+ }
+ /* 
+ * About page
+ *
+  */
+
+  .about__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }

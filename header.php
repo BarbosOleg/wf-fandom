@@ -37,7 +37,7 @@
                         <li><a href="index.php">
                                 <div class="content__li">Main Page</div>
                             </a></li>
-                        <li><a href="#">
+                        <li><a href="about.php">
                                 <div class="content__li">About Project</div>
                             </a></li>
                         <li><a href="donation.php">

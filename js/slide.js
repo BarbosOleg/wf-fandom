@@ -21,6 +21,7 @@ function showSlides(element_number)
     {
         slide_id = 1;
     }
+
     for(i = 0; i < slides.length; i++)
     {
         slides[i].style.display = "none";
